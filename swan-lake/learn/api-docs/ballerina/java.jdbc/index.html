@@ -146,7 +146,7 @@ target = &quot;java8&quot;
     groupId = &quot;com.h2database&quot;
     modules = [&quot;samplemodule&quot;]
 </code></pre>
-<p>Else, if you're trying to run a single BAL file, you can copy the JDBC driver into the <code>&lt;BALLERINA_HOME&gt;/bre/lib/distributions/jballerina-&lt;VERSION&gt;/bre/lib</code> directory and
+<p>Else, if you're trying to run a single BAL file, you can copy the JDBC driver into the <code>${BALLERINA_HOME}/bre/lib</code> directory and
 run the BAL file by executing the <code>ballerina run</code> command.</p>
 <h3>Client</h3>
 <p>To access a database, you must first create a
@@ -189,7 +189,7 @@ jdbc:Client|sql:Error dbClient4 = new (url =  &quot;jdbc:h2:~/path/to/database&q
 <p>You can find more details about each property in the
 <a href="https://ballerina.io/swan-lake/learn/api-docs/ballerina/java.jdbc/clients/Client.html">jdbc:Client</a> constructor.</p>
 <p>The <a href="https://ballerina.io/swan-lake/learn/api-docs/ballerina/java.jdbc/clients/Client.html">jdbc:Client</a> references
-<a href="https://ballerina.io/swan-lake/learn/api-docs/ballerina/sql/abstractobjects/Client.html">sql:Client</a> and
+<a href="https://ballerina.io/swan-lake/learn/api-docs/ballerina/sql/clients/Client.html">sql:Client</a> and
 all the operations defined by the <code>sql:Client</code> will be supported by the <code>jdbc:Client</code> as well.</p>
 <p>For more information on all the operations supported by the <code>jdbc:Client</code>, which include the below, see the
 <a href="https://ballerina.io/swan-lake/learn/api-docs/ballerina/sql/index.html">SQL Module</a>.</p>
