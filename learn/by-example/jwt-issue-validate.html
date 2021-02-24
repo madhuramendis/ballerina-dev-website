@@ -415,61 +415,6 @@ import ballerina/jwt;
                                 
                             
                         
-
-                    <div>
-
-                        <table class="cBBE-body">
-                            
-                            <tr class="cTR cOutputTr">
-
-                                <td class="code cOutput">
-                                    <div class="highlight"><pre><code class=shell-session># To run this sample, navigate to the directory that contains the `.bal` file,
-# and execute the `bal run` command below.
-# (You may need to change the keystore path, a sample keystore file is
-# available in the distribution.
-# The file path is &lt;ballerina.home&gt;/examples/resources/ballerinaKeystore.p12)
-bal run jwt_issue_validate.bal
-Issued JWT: eyJhbGciOiJSUzI1NiIsICJ0eXAiOiJKV1QiLCAia2lkIjoiTlRBeFptTXhORE15WkR
-            nM01UVTFaR00wTXpFek9ESmhaV0k0TkRObFpEVTFPR0ZrTmpGaU1RIn0.eyJpc3MiOi
-            JiYWxsZXJpbmEiLCAic3ViIjoiYWRtaW4iLCAiYXVkIjoidkV3emJjYXNKVlFtMWpWW
-            UhVSENqaHhaNHRZYSIsICJqdGkiOiI1NWEwYjc1NC04OTVmLTQyNzktODg0My1iNzQ1
-            ZTExYTU3ZTkiLCAiZXhwIjoxNjExMTI3MDIzLCAibmJmIjoxNjExMTIzNDIzLCAiaWF
-            0IjoxNjExMTIzNDIzfQ.DMJDjJEFiQN7d_2CXGfXX_UR8Fi7Witr3aVGm4K7amEm3xN
-            cbh1bZmKO2ir-oP2_ikoM1_ETO7i4E4LKJHNAEdhqj8YHyKpbszaEq5zouMOtdFcI7i
-            TS8LyYDnyLEQQ6sa9L9NoMz3xULeF8epk0eaN1vVA-ijndVkZlMjaXJNf9Bgzn2qJOd
-            sQ6F0GeC4WKEt-xcEY5C2_haEDotSOYhUzEqh6D1fRtrGy7GaH5gzx99n-xjn8NZbTD
-            F0VnD6c1kJPe25FiPz24l9KdaCE1i2WbuzEhZWMclHW5RcTXVkLLkjQ4DvxfE-riGmK
-            qPN1gatWViZQF_VGBK-G7rEhi9Q
-Validated JWT Payload: {&quot;iss&quot;:&quot;ballerina&quot;,
-                        &quot;sub&quot;:&quot;admin&quot;,
-                        &quot;aud&quot;:&quot;vEwzbcasJVQm1jVYHUHCjhxZ4tYa&quot;,
-                        &quot;jti&quot;:&quot;55a0b754-895f-4279-8843-b745e11a57e9&quot;,
-                        &quot;exp&quot;:1611127023,&quot;nbf&quot;:1611123423,
-                        &quot;iat&quot;:1611123423
-                       }
-Validated JWT Payload: {&quot;iss&quot;:&quot;ballerina&quot;,
-                        &quot;sub&quot;:&quot;admin&quot;,
-                        &quot;aud&quot;:&quot;vEwzbcasJVQm1jVYHUHCjhxZ4tYa&quot;,
-                        &quot;jti&quot;:&quot;55a0b754-895f-4279-8843-b745e11a57e9&quot;,
-                        &quot;exp&quot;:1611127023,&quot;nbf&quot;:1611123423,
-                        &quot;iat&quot;:1611123423
-                       }
-</code></pre></div>
-
-                                </td>
-                                <td class="docs">
-                                    
-                                </td>
-                            </tr>
-                            
-                        </table>
-                    </div>
-                    
-                        
-                            
-                                
-                            
-                        
                             
                                 
                             
@@ -559,6 +504,61 @@ Validated JWT Payload: {&quot;iss&quot;:&quot;ballerina&quot;,
         return jwks;
     }
 }
+</code></pre></div>
+
+                                </td>
+                                <td class="docs">
+                                    
+                                </td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+                    
+                        
+                            
+                                
+                            
+                        
+
+                    <div>
+
+                        <table class="cBBE-body">
+                            
+                            <tr class="cTR cOutputTr">
+
+                                <td class="code cOutput">
+                                    <div class="highlight"><pre><code class=shell-session># To run this sample, navigate to the directory that contains the `.bal` file,
+# and execute the `bal run` command below.
+# (You may need to change the keystore path, a sample keystore file is
+# available in the distribution.
+# The file path is &lt;ballerina.home&gt;/examples/resources/ballerinaKeystore.p12)
+bal run jwt_issue_validate.bal
+Issued JWT: eyJhbGciOiJSUzI1NiIsICJ0eXAiOiJKV1QiLCAia2lkIjoiTlRBeFptTXhORE15WkR
+            nM01UVTFaR00wTXpFek9ESmhaV0k0TkRObFpEVTFPR0ZrTmpGaU1RIn0.eyJpc3MiOi
+            JiYWxsZXJpbmEiLCAic3ViIjoiYWRtaW4iLCAiYXVkIjoidkV3emJjYXNKVlFtMWpWW
+            UhVSENqaHhaNHRZYSIsICJqdGkiOiI1NWEwYjc1NC04OTVmLTQyNzktODg0My1iNzQ1
+            ZTExYTU3ZTkiLCAiZXhwIjoxNjExMTI3MDIzLCAibmJmIjoxNjExMTIzNDIzLCAiaWF
+            0IjoxNjExMTIzNDIzfQ.DMJDjJEFiQN7d_2CXGfXX_UR8Fi7Witr3aVGm4K7amEm3xN
+            cbh1bZmKO2ir-oP2_ikoM1_ETO7i4E4LKJHNAEdhqj8YHyKpbszaEq5zouMOtdFcI7i
+            TS8LyYDnyLEQQ6sa9L9NoMz3xULeF8epk0eaN1vVA-ijndVkZlMjaXJNf9Bgzn2qJOd
+            sQ6F0GeC4WKEt-xcEY5C2_haEDotSOYhUzEqh6D1fRtrGy7GaH5gzx99n-xjn8NZbTD
+            F0VnD6c1kJPe25FiPz24l9KdaCE1i2WbuzEhZWMclHW5RcTXVkLLkjQ4DvxfE-riGmK
+            qPN1gatWViZQF_VGBK-G7rEhi9Q
+Validated JWT Payload: {&quot;iss&quot;:&quot;ballerina&quot;,
+                        &quot;sub&quot;:&quot;admin&quot;,
+                        &quot;aud&quot;:&quot;vEwzbcasJVQm1jVYHUHCjhxZ4tYa&quot;,
+                        &quot;jti&quot;:&quot;55a0b754-895f-4279-8843-b745e11a57e9&quot;,
+                        &quot;exp&quot;:1611127023,&quot;nbf&quot;:1611123423,
+                        &quot;iat&quot;:1611123423
+                       }
+Validated JWT Payload: {&quot;iss&quot;:&quot;ballerina&quot;,
+                        &quot;sub&quot;:&quot;admin&quot;,
+                        &quot;aud&quot;:&quot;vEwzbcasJVQm1jVYHUHCjhxZ4tYa&quot;,
+                        &quot;jti&quot;:&quot;55a0b754-895f-4279-8843-b745e11a57e9&quot;,
+                        &quot;exp&quot;:1611127023,&quot;nbf&quot;:1611123423,
+                        &quot;iat&quot;:1611123423
+                       }
 </code></pre></div>
 
                                 </td>
